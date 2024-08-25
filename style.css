@@ -1,0 +1,131 @@
+body{
+    background: gainsboro;
+    font-family: "Poppins", sans-serif;
+}
+
+.app{
+    background: white;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    box-shadow: 0 20px 20px rgba(23, 24, 47, 0.08);
+    border-radius: 20px;
+}
+
+header{
+    border-bottom: 1px solid #f9f7fe;
+    padding: 0 0 30px 0;
+}
+
+.cityform-input{
+    background-color: #f9f7fe;
+    border: none;
+    border-radius: 8px;
+    width: 40%;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+main{
+    padding: 50px 0;
+}
+
+.weather-city{
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+}
+
+.weather-details{
+    font-size: 15px;
+    line-height: 23px;
+    color: rgba(50,40,66,0.5)
+
+}
+
+.weather-details strong{
+    color: var(--text-color, rgba(50, 40, 66, 0.5));
+}
+
+.weather-temp{
+    display: flex;
+
+}
+
+.temperature{
+    font-size: 80px;
+    margin-left: 10px;
+    line-height: 88px;
+    
+}
+
+.emoji{
+    width: 80px;
+    height: 70px;
+    margin-top: 15px;
+
+}
+
+.unit{
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.searchform-button{
+
+    background-color: #f9f7fe;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    width: 8%;
+
+}
+
+.weather-app-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.forecast-date {
+    text-align: center;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.forecast-icon {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.forecast-temperatures {
+    text-align: center;
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.forecast-temperature {
+    padding: 0 10px;
+}
+
+footer{
+    border-top: 1px solid #f9f7fe;
+    padding: 30px 0 0 0;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
